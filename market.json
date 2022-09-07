@@ -1,24 +1,8 @@
-{
-   "Market":{
-      "name":{
-         "loremWords":{
-            "minLength":5,
-            "maxLength":20
-         }
-      },
-      "categories": {
-         "hasMany":"Category"
-      }
+[
+   {
+      "id":"hello world"
    },
-   "Category":{
-      "name":{
-         "loremWords":{
-            "minLength":5,
-            "maxLength":20
-         }
-      },
-      "market": {
-         "belongsTo": "Market"
-      }
+   {
+      "id":"hello world2"
    }
-}
+]
