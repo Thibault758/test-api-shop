@@ -1,105 +1,14 @@
 {
-    "magasin1": {
-        "name": "Magasin Saint-andré",
-        "sellers": [
-            {
-                "id": 1254584,
-                "type": "shop",
-                "name": "Magasin Saint-André",
-                "Schedules": []
-            },
-            {
-                "id": 1547845,
-                "type": "seller",
-                "name": "Jean-marc",
-                "Schedules": []
-            },
-            {
-                "id": 1478596,
-                "type": "seller",
-                "name": "Didier",
-                "Schedules": []
-            }
-        ]
-    },
-    "1254584": {
-       "day0": {
-              "date": "2020-01-08",
-              "name": "Mer. 08/01",
-              "timeSlot": [
-              {
-                 "name": "09h00",
-                  "ms": 32400000,
-                  "place": 20
-              },
-              {
-                  "name": "09h30",
-                  "ms": 34200000,
-                  "place": 20
-              },
-              {
-                  "name": "11h30",
-                  "ms": 41400000,
-                  "place": 20
-              },
-              {
-                  "name": "12h00",
-                  "ms": 43200000,
-                  "place": 20
-              },
-              {
-                  "name": "12h30",
-                  "ms": 45000000,
-                  "place": 0
-              },
-                  {
-                  "name": "13h30",
-                  "ms": 45000000,
-                  "place": 0
-              }
-            ]
-      },
-        "day1": {
-              "date": "2020-01-09",
-              "name": "Jeu. 09/01",
-              "timeSlot": [
-              {
-                 "name": "09h00",
-                  "ms": 32400000,
-                  "place": 0
-              },
-              {
-                  "name": "11h30",
-                  "ms": 41400000,
-                  "place": 20
-              },
-              {
-                  "name": "12h00",
-                  "ms": 43200000,
-                  "place": 0
-              },
-              {
-                  "name": "12h30",
-                  "ms": 45000000,
-                  "place": 20
-              }
-            ]
-      },
-        "day2": {
-              "date": "2020-01-10",
-              "name": "Ven. 10/01",
-              "timeSlot": []
-      },
-        "day3": {
-              "date": "2020-01-11",
-              "name": "Sam. 11/01",
-              "timeSlot": []
-      },
-        "nextAvaibility": {
-            "jump": 0,
-            "date": "19/05",
-            "name": "09h00"
-      },
-      "showNextAvaibility" : false
-   }
+  "Post": {
+    "title": { "string": {} },
+    "comments": {
+      "hasMany": "Comment"
+    }
+  },
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
+  }
 }
