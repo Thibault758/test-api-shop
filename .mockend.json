@@ -6,11 +6,19 @@
             "maxLength":20
          }
       },
-      "category":{
+      "category": {
+         "hasMany":"Category"
+      }
+   },
+   "Category":{
+      "name":{
          "loremWords":{
             "minLength":5,
             "maxLength":20
          }
+      },
+      "market": {
+         "belongsTo": "Market"
       }
    }
 }
