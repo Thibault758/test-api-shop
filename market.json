@@ -1,8 +1,36 @@
 [
    {
-      "id":"hello world"
+      "id":1,
+      "chain":"Bagelstein Pyramides",
+      "category":"Restaurant",
+      "category_id":10,
+      "ecommerce_prepayment":true,
+      "geoloc_lat":48.8651411,
+      "geoloc_lng":2.3328822,
+      "total_supplier_users":2,
+      "total_offers":3,
+      "publication":false,
+      "created_at":"2022-04-11 08:27:34",
+      "updated_at":"2022-04-20 15:02:20",
+      "active":true,
+      "slug":"985-bagelstein-pyramides",
+      "wallets_total":40,
+      "wallets_last_month":0,
+      "pipedrive_deal_id":6754,
+      "pipedrive_org_id":213038,
+      "localisations_prepayment":[
+         {
+            "name":'Morning Coffee Clichy',
+            "amount":2033
+         },
+         {
+            "name":'Morning Coffee République',
+            "amount":2034
+         },
+         {
+            "name":'Morning Coworking Amsterdam',
+            "amount":999
+         },
+      ]
    },
-   {
-      "id":"hello world2"
-   }
 ]
