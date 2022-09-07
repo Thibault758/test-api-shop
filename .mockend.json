@@ -1,11 +1,5 @@
 {
    "Market":{
-      "likes":{
-         "int":{
-            "min":0,
-            "max":100
-         }
-      },
       "name":{
          "loremWords":{
             "minLength":5,
