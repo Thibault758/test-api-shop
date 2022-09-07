@@ -62,5 +62,131 @@
             "geoloc_lng":2.3328822
          }
       ]
+   },
+   {
+      "id":2,
+      "chain":"La Table Des Ecoles",
+      "category":"Boulangerie - Pâtisserie",
+      "category_id":1,
+      "ecommerce_prepayment":true,
+      "geoloc_lat":48.8478213,
+      "geoloc_lng":2.3520819,
+      "total_supplier_users":2,
+      "total_offers":3,
+      "publication":false,
+      "created_at":"2022-04-11 08:27:34",
+      "updated_at":"2022-04-20 15:02:20",
+      "active":true,
+      "slug":"964-la-table-des-ecoles",
+      "wallets_total":40,
+      "wallets_last_month":0,
+      "pipedrive_deal_id":6754,
+      "pipedrive_org_id":213038,
+      "localisations_prepayment":[
+         {
+            "name":"La Valse Des Pains",
+            "amount":5867
+         }
+      ],
+      "tags":[
+         {
+            "code":"75020"
+         },
+         {
+            "code":"75"
+         }
+      ],
+      "offers":[
+         {
+            "amount":100,
+            "reduction":2
+         },
+         {
+            "amount":3,
+            "reduction":1
+         }
+      ],
+      "localisations":[
+         {
+            "name":"La Table Des Ecoles",
+            "address":"La Table Des Ecoles",
+            "zipcode":"75005",
+            "city":"Paris",
+            "slug":"la-table-des-ecoles",
+            "team":false,
+            "geoloc_lat":48.8478213,
+            "geoloc_lng":2.3520819
+         }
+      ]
+   },
+   {
+      "id":3,
+      "chain":"Morning Coworking - Lespace",
+      "category":"Café - Restaurant",
+      "category_id":11,
+      "ecommerce_prepayment":true,
+      "geoloc_lat":48.88795,
+      "geoloc_lng":2.2822590000001,
+      "total_supplier_users":2,
+      "total_offers":3,
+      "publication":false,
+      "created_at":"2022-04-11 08:27:34",
+      "updated_at":"2022-04-20 15:02:20",
+      "active":true,
+      "slug":"766-morning-coworking",
+      "wallets_total":40,
+      "wallets_last_month":0,
+      "pipedrive_deal_id":6754,
+      "pipedrive_org_id":213038,
+      "localisations_prepayment":[
+         {
+            "name":"Morning Coworking Amsterdam",
+            "amount":0
+         },
+         {
+            "name":"Morning Coffee Monceau",
+            "amount":356
+         }
+      ],
+      "tags":[
+         {
+            "code":"75002"
+         },
+         {
+            "code":"75"
+         }
+      ],
+      "offers":[
+         {
+            "amount":100,
+            "reduction":2
+         },
+         {
+            "amount":3,
+            "reduction":1
+         }
+      ],
+      "localisations":[
+         {
+            "name":"Morning Coworking Sentier",
+            "address":"Morning Coworking Sentier",
+            "zipcode":"75002",
+            "city":"Paris",
+            "slug":"morning-coworking-sentier",
+            "team":false,
+            "geoloc_lat":48.8677433,
+            "geoloc_lng":2.3496935
+         },
+         {
+            "name":"Morning Coworking Levallois",
+            "address":"Morning Coworking Levallois",
+            "zipcode":"92300",
+            "city":"Levallois-Perret",
+            "slug":"morning-coworking-courcelles-1",
+            "team":false,
+            "geoloc_lat":48.88795,
+            "geoloc_lng":2.2822590000001
+         }
+      ]
    }
 ]
