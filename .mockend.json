@@ -1,10 +1,10 @@
 {
    "Market":{
       "name": {
-          "string": [
-            "Thor",
-            "Loki"
-          ]
-      }
+         "loremWords": {
+           "minLength": 5,
+           "maxLength": 20
+         }
+      },
    }
 }
