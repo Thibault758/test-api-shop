@@ -5,6 +5,12 @@
             "minLength":5,
             "maxLength":20
          }
+      },
+      "category":{
+         "loremWords":{
+            "minLength":5,
+            "maxLength":20
+         }
       }
    }
 }
