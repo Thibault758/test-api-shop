@@ -6,7 +6,7 @@
             "maxLength":20
          }
       },
-      "category": {
+      "categories": {
          "hasMany":"Category"
       }
    },
