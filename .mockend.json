@@ -1,10 +1,10 @@
 {
    "Market":{
-      "name": {
-         "loremWords": {
-           "minLength": 5,
-           "maxLength": 20
+      "name":{
+         "loremWords":{
+            "minLength":5,
+            "maxLength":20
          }
-      },
+      }
    }
 }
