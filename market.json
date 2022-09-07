@@ -20,17 +20,47 @@
       "pipedrive_org_id":213038,
       "localisations_prepayment":[
          {
-            "name":'Morning Coffee Clichy',
+            "name":"Morning Coffee Clichy",
             "amount":2033
          },
          {
-            "name":'Morning Coffee République',
+            "name":"Morning Coffee République",
             "amount":2034
          },
          {
-            "name":'Morning Coworking Amsterdam',
+            "name":"Morning Coworking Amsterdam",
             "amount":999
+         }
+      ],
+      "tags":[
+         {
+            "code":"75005"
          },
+         {
+            "code":"75"
+         }
+      ],
+      "offers":[
+         {
+            "amount":25,
+            "reduction":1.5
+         },
+         {
+            "amount":50,
+            "reduction":4
+         }
+      ],
+      "localisations":[
+         {
+            "name":"Bagelstein Pyramides",
+            "address":"Bagelstein Pyramides",
+            "zipcode":"75001",
+            "city":"Paris",
+            "slug":"bagelstein-pyramides",
+            "team":false,
+            "geoloc_lat":48.8651411,
+            "geoloc_lng":2.3328822
+         }
       ]
-   },
+   }
 ]
